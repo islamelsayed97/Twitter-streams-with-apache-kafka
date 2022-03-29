@@ -1,5 +1,5 @@
 # Twitter streams with apache kafka
-I've used Twitter to get real time tweet streams in an application that will put the data into Apache Kafka, then these tweets end up in MongoDB collection at the end.
+I've used Twitter API to get real time tweet streams in an application that will put the data into Apache Kafka, then these tweets end up in MongoDB collection at the end.
 
 ### The project consists of two main parts:
 - **Kafka Producer:** the role of this part is to get the tweets from twitter using twitter API, then put these tweets into Apache kafka. Click [here](/Kafka_producer_twitter/kafkaProducer/twitterProducer.java) to go to this part code. You can find dependencies used in this part [here](/Kafka_producer_twitter/pom.xml)
